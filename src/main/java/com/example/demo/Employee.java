@@ -6,11 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-// JPA аннотация для того чтобы объект хранил данные в JPA
-// Domain object
 @Entity
 class Employee {
-    //еще JPA аннотации указывают на то что это id и заполняются JPA провайдером
     private @Id @GeneratedValue Long id;
 
     private String firstName;
