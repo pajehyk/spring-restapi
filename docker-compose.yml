@@ -1,0 +1,9 @@
+version: '1.0'
+services: 
+postgres:
+  image: postgres:1.0
+  ports:
+    - 5432:5432
+  restart: always
+  app:
+    image: 
